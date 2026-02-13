@@ -12,4 +12,4 @@ class Solution:
             
         return arr
         
-print(Solution().rotateArr([10,20,30,40,50,60],2))
+print(Solution().rotateArr([10,20,30,40,50,60,70],3))
