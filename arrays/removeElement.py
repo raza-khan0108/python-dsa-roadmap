@@ -1,6 +1,6 @@
 class Solution:
     def removeElement(self,arr,val):
-        n =len(arr)
+        n = len(arr)
         if(n == 0):
             return None
         index = 0
@@ -11,5 +11,3 @@ class Solution:
         return arr[:index]
 
 print(Solution().removeElement([1, 2, 3, 4, 5], 5))
-print(Solution().removeElement([1, 2, 3, 4, 5], 1))
-print(Solution().removeElement([1, 2, 3, 4, 5], 3))
