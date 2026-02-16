@@ -3,6 +3,7 @@ class Solution:
         n = len(arr)
         if(n == 0):
             return None
+            
         index = 0
         for i in range(n):
             if arr[i] != val:

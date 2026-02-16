@@ -17,3 +17,4 @@ class Solution:
         return min,max
 
 print(Solution().getMinMax([1, 2, 3, 4, 5]))
+
